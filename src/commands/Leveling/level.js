@@ -134,7 +134,7 @@ export default {
                 const newConfig = {
                     ...existingConfig,
                     configured: true,
-                    enabled: true,
+                    enabled: false,
                     levelUpChannel: channel.id,
                     xpRange: { min: xpMin, max: xpMax },
                     xpCooldown: xpCooldown,
